@@ -1,0 +1,64 @@
+.page-style-light { }
+
+.page-style-dark {
+    $dark-main-font-color: #c9d1d9;
+    $dark-sub-font-color: #8b949e;
+    
+    $dark-main-border-color: #282e35;
+    
+    $dark-main-background-color: #0d1117;
+    $dark-sub-background-color: #161b22;
+    $dark-sub-sub-background-color: #010409;
+    
+    $dark-checked-background-color: #284760;
+
+    $dark-primary-blue: #1890ff;
+    $dark-hover-blue: #40A9FF;
+    $dark-hover-white: #f0f6fc;
+
+    $dark-clip-coral-color: #ff6262;
+    $dark-ndi-purple-color: #ff60ff;
+
+    $dark-hover-border-white-blue: #acbcce;
+
+    $dark-ant-tag-blue: #3285dd;
+    $dark-ant-tag-success: #52c41a;
+    $dark-ant-tag-error: #f5222d;
+    $dark-ant-tag-warning: #fa8c16;
+    $dark-ant-tag-pink: #c41d7f;
+
+
+    background-color: $dark-main-background-color;
+    color: $dark-main-font-color;
+
+    * {
+        color: $dark-main-font-color;
+    }
+
+    .ant-btn {
+        background-color: $dark-sub-background-color;
+        border-color: $dark-main-border-color;
+
+        &:hover {
+            border-color: $dark-hover-border-white-blue;
+        }
+    }
+
+    .ant-drawer-content {
+        * {
+            border-color: $dark-main-border-color;
+        }
+        background-color: $dark-sub-background-color;
+        .ant-drawer-header {
+        background-color: $dark-sub-background-color;
+        }
+    }
+
+    .ant-radio-button-wrapper {
+        background-color: transparent;
+    }
+
+    .ant-tag {
+        background-color: $dark-sub-sub-background-color;
+    }
+ }
